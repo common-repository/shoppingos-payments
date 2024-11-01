@@ -1,0 +1,26 @@
+{
+	"name": "shoppingos/sos-plugin",
+	"version": "1.0.6",
+	"minimum-stability": "stable",
+	"prefer-stable": true,
+	"type": "wordpress-plugin",
+	"autoload": {
+		"psr-4": {
+			"ShoppingOS\\": "src/"
+		}
+	},
+	"require-dev": {
+		"dealerdirect/phpcodesniffer-composer-installer": "^0.7.2",
+		"wp-coding-standards/wpcs": "*",
+		"automattic/phpcs-neutron-ruleset": "^3.3",
+		"phpcompatibility/phpcompatibility-wp": "*"
+	},
+	"require": {
+		"php": ">=7.2",
+		"micropackage/requirements": "^1.2"
+	},
+	"scripts": {
+		"cs": "phpcs --standard=phpcs.xml",
+		"cbf": "phpcbf --standard=phpcs.xml"
+	}
+}

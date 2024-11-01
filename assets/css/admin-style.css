@@ -1,0 +1,119 @@
+/* Settings content */
+
+.shoppingos-settings-logo {
+	display: block;
+	margin: 20px 0;
+}
+
+#woocommerce_shopping_os_description {
+    width: 400px;
+}
+
+.shoppingos-content:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.shoppingos-main {
+	width: 70%;
+	float: left;
+	padding: 0 2% 0 0;
+	border-right: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+/* Settings Sidebar  */
+
+.shoppingos-sidebar {
+	width:  350px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	float: left;
+	box-sizing: border-box;
+	text-align: left;
+	font-family: Roboto, sans-serif;
+	background-color: #f5f5f5;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #cccccc;
+	display: flex;
+	justify-content: center;
+	padding: 20px 0px;
+}
+
+.shoppingos-sidebar-section{
+	max-width: 85%;
+	display:flex;
+	flex-direction: column;
+}
+
+.shoppingos-sidebar-title{
+	font-size: 1.5em !important;
+	font-weight: bold;
+	font-family: Roboto, sans-serif !important;
+	text-align: start;
+	width:100%;
+	margin-bottom:0px;
+}
+
+.shoppingos-sidebar-content{
+	display: flex;
+	flex-direction: column;
+}
+
+.shoppingos-sidebar-main-text{
+	text-align: start;
+	font-size: 1.1em !important;
+	letter-spacing:0.2px;
+	width:95%;
+	line-height: 1.4;
+	margin-top: 5px;
+}
+
+.shoppingos-sidebar-button-left{
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+	padding: 0px !important;
+	border-bottom: 3px solid black !important;
+	font-weight: bolder;
+}
+
+.shoppingos-sidebar-bottom-holder{
+	padding: 5px 10px 10px 10px;
+	margin-top: 10px;
+	align-self:flex-end;
+	flex-direction: column;
+}
+
+.line-break{
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+/* Dashboard widget */
+
+.sos-widget-content {
+	width: 100%;
+}
+
+.sos-statistics-table {
+	margin-bottom: 10px;
+}
+
+.sos-widget-left-column {
+	width: 40%;
+	float: left;
+}
+.sos-widget-right-column {
+	width: 60%;
+	float: left;
+}
+
+.sos-widget-text {
+	font-weight: 700;
+	margin-bottom: 10px;
+	float: left;
+	clear: both;
+}
